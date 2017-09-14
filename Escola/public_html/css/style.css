@@ -1,0 +1,33 @@
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.titulo-curso{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.valor {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px
+}
+
+.valor p h2 {
+    color: #e2141e;
+}
+
+.remuneracao{
+     margin-top: 20px
+}
+
+.preco span {
+    font-size: 12px !important;
+    font-weight: normal;
+    color: #e2141e;
+}
+
+.item-preco {
+    color: #e2141e;
+}

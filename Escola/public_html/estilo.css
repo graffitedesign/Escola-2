@@ -1,0 +1,168 @@
+/* *********************
+************************
+INCLUSÃO DE FONTES
+************************
+********************* */
+@import url('https://fonts.googleapis.com/css?family=Abel|Cairo|Dosis|Noto+Sans');
+
+/*
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Cairo', sans-serif;
+*/
+
+/* *********************
+************************
+RESET
+************************
+********************* */
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#login, .menu, .conteudo, .footer {
+	float: left;
+	width: 100%;
+	display: block;
+	font-family: 'Cairo', sans-serif;
+}
+
+/* *********************
+************************
+LOGIN TOPO
+************************
+********************* */
+
+#login {
+	display: none;
+	float: left;
+	background: #E2D6C8;
+	padding: 2px 0;
+	border-bottom:3px solid #493729;
+}
+
+#login input {
+	border-radius: 5px;
+	border:none;
+}
+
+#login:target {
+	display: block;
+}
+
+#login form {
+	float: right;
+	padding-right: 30px;
+}
+
+#login form input {
+	margin: 10px 5px;
+	padding: 5px 10px;
+}
+
+#login .btn {
+	background: #493729;
+	border: none;
+	color:#E2D6C8;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+#login .btn:hover {
+	background: #242422;
+}
+
+.ocultar {
+	background: #fff;
+	border: none;
+	color:#ccc;
+	cursor: pointer;
+	padding: 0 10px;
+	margin:  0 0 0 20px;
+	font-size: 14px;
+	text-decoration: none;
+	border-radius: 5px;
+	border:none;
+}
+
+.ocultar:hover {
+	background: #ccc;
+	color:#fff;
+}
+
+/* *********************
+************************
+MENU PRINCIPAL
+************************
+********************* */
+
+.topo .menu {
+	font-family: 'Cairo', sans-serif;
+	background: #493729;
+	color: #E2D6C8;
+	text-align: center;
+	border-bottom:3px solid #493729;
+}
+
+.topo .menu li {
+	display: inline-block;
+}
+
+.topo .menu a {
+	display: block;
+	color: #E2D6C8;
+	text-decoration: none;
+	padding: 20px;
+	margin: 0 10px;
+}
+
+.topo .menu a:hover {
+	background: #F79D23;
+	color: #D35405;
+}
+
+/* *********************
+************************
+SLIDE HOME
+************************
+********************* */
+
+.slideHome img {
+	width: 100%;
+}
+
+
+/* *********************
+************************
+RODAPÉ DO SITE
+************************
+********************* */
+
+.footer {
+	width: 100%;
+	float: left;
+	background: url(./img/dark-triangles.png);
+	border-top: 5px solid #000;
+}
+
+.conteudoFooter {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.conteudoFooter ul {
+	list-style: none;
+}
+
+.conteudoFooter ul a {
+	color: #fff;
+}
